@@ -1,0 +1,20 @@
+{application, push2web,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  lager,
+                  inets,
+                  ssl,
+                  octopus,
+                  uuid,
+                  cowboy
+                 ]},
+  {mod, { push2web_app, []}},
+  {env, []}
+ ]}.

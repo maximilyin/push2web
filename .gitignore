@@ -1,0 +1,13 @@
+*.beam
+*.app
+*.plt
+/ebin/
+/.eunit/
+rebar
+datadir/
+.erlang.mk.packages.v2
+.erlang.mk
+_rel
+deps
+log
+relx

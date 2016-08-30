@@ -1,0 +1,13 @@
+{
+    "name": "Push Notification",
+    "short_name": "Push Notification",
+    "icons": [{
+        "src": "widgets/img/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "gcm_sender_id": "323432692936",
+    "gcm_user_visible_only": true
+}
